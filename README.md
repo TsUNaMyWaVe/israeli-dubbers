@@ -2,7 +2,7 @@
 A university project for the Digital Humanities course in Ben Gurion University, by Lia Rubinstein.
 
 ## Intial Data Description
-The data intially came from the website ["Ishim"](https://www.ishim.co.il/), which is a vast database about the Israeli media creations. As such, it also contains the data about dubbed movies, and who dubbed in them. The details about the data you can find there however, is pretty scarce. Each actor page conatin very little data, and the way the site is build prevents us from getting any meaningful conclusions of the data in it.
+The data intially came from the website ["Ishim"](https://www.ishim.co.il/), which is a vast database about the Israeli media creations. As such, it also contains the data about dubbed movies, and who dubbed in them. The details about the data you can find there however, are pretty scarce. Each actor page conatins very little data, and the way the site is built prevents us from arriving at any meaningful conclusions of the data in it.
 
 ## Current Data Description
 My final data is available here in 2 differen type of files: a csv file, and an OpenRefine project. Each entry in the table represents a dubber. Every entry includes the following data:
@@ -17,7 +17,7 @@ Aside from those (which where gathered directly from "Ishim" site), using OpenRe
 
 Using all this files we can now use the data in a more convenient way, and reach conclusions based on what we are looking for.
 For example, we can see in what years more movies where dubbed; how many male actors are there with a big list of movies in comparison to female ones; and so on.
-In addition, the OpenRefine project file also includes reconciled version of the movies, for further use.
+In addition, the OpenRefine project file also includes a reconciled version of the movies, for further use.
 
 ## Code
 The code was written in Python, and is mostly used for the intiail data collection from "Ishim".
@@ -49,12 +49,12 @@ To run it, simply perform:
 
 #### Graph
 Initially I planned to display the data I collected as some kind of graph. While personally I didn't end up using it, I decided to keep the code of it for anyone who might find it useful.
-Allowing this step will crate a graphml file named "graph", which will includ the data of multi-graph, where every node is a dubber. Each edge in the graph connects two dubbers who worked together on a movie, and the edge label is said movie.
+Allowing this step will crate a graphml file named "graph", which will includ the data of a multi-graph, where every node is a dubber. Each edge in the graph connects two dubbers who worked together on a movie, and the edge label is the name of said movie.
 
 To run it, simply perform:
 ```python html_parse.py graph=="true"```
 
-**Note:** Most of the common graphing applications can open and manipulate a graphml file. But please understand that code as is is using the entire parsed database to make the graph, and so it's a very big graph. When opening this file in such program, it might not be easible to read/manipulate, depending on the application you use and your computer performance.
+**Note:** Most of the common graphing applications can open and manipulate graphml files. But please understand that the code as-is is using the entire parsed database to make the graph, and so it's a very big graph. When opening this file in such application, it might not be easy to read/manipulate, depending on the application you use and your computer performance.
 
 ## Display
 The way I decided to display the data is to contribute to WikiData. Out of the 1478 dubbers entries I worked with, only about ~34% had a WikiData page. Thus OpenRefine was used once again, to push the following changes into WikiData:
