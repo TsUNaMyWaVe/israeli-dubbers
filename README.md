@@ -9,7 +9,7 @@ My final data is available here in 2 differen type of files: a csv file, and an 
 * Number of movies the actor dubbed in
 * A list of those movies, and the year the (dubbed) movie was released
 
-Aside from those (which where gathered directly from "Ishim" site), using OpenRefine and WikiData, some of the entries have additional data:
+Aside from those (which were gathered directly from "Ishim" site), using OpenRefine and WikiData, some of the entries have additional data:
 * Additional occupations
 * Date of birth
 * Place of birth
