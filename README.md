@@ -2,7 +2,7 @@
 A university project for the Digital Humanities course in Ben Gurion University, by Lia Rubinstein.
 
 ## Intial Data Description
-The data intially came from the website "Ishim", which is a vast database about the Israeli media creations. As such, it also contains the data about dubbed movies, and who dubbed in them. The details about the data you can find there however, is pretty scarce. Each actor page conatin very little data, and the way the site is build prevents us from getting any meaningful conclusions of the data in it.
+The data intially came from the website ["Ishim"](https://www.ishim.co.il/), which is a vast database about the Israeli media creations. As such, it also contains the data about dubbed movies, and who dubbed in them. The details about the data you can find there however, is pretty scarce. Each actor page conatin very little data, and the way the site is build prevents us from getting any meaningful conclusions of the data in it.
 
 ## Current Data Description
 My final data is available here in 2 differen type of files: a csv file, and an OpenRefine project. Each entry in the table represents a dubber. Every entry includes the following data:
