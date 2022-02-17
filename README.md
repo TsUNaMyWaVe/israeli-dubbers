@@ -1,5 +1,5 @@
 # Israeli Dubbers Collection as Data
-A university project for the Digital Humanities course in Ben Gurion University, by Lia Rubinstein.
+A university project for the Digital Humanities course in Ben Gurion University.
 
 ## Intial Data Description
 The data initially came from the website ["Ishim"](https://www.ishim.co.il/), which is a vast database about Israeli media creations. As such, it also contains data about dubbed movies, and who dubbed them. The details about the data you can find there, however, are pretty scarce. Each actor page contains very little data, and the way the site is built prevents us from arriving at any meaningful conclusions of the data in it.
@@ -21,7 +21,7 @@ In addition, the OpenRefine project file also includes a reconciled version of t
 
 ## Code
 The code was written in Python, and is mostly used for the initial data collection from "Ishim".
-The code parse the HTML in "Ishim" to make a csv file named "parsed_date", where each entry is a movie and the list of the dubbers who participated in it.
+The code parse the HTML in "Ishim" to make a csv file named "parsed_data", where each entry is a movie and the list of the dubbers who participated in it.
 To run it, simply perform:
 ```python html_parse.py```
 
